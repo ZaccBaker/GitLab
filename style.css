@@ -6,3 +6,7 @@ blockquote {
     font-style: italic;
     color: darkblue;
 }
+
+blockquote footer {
+    text-transform: uppercase;
+}
