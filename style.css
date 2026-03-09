@@ -1,12 +1,53 @@
 body {
     background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
+/* Page Title */
+
+h1 {
+    margin-top: 40px;
+    color: #1a1a1a;
+}
+
+/* Paragraph description */
+
+p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Quote styling */
 
 blockquote {
     font-style: italic;
     color: darkblue;
+    background-color: white;
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+    border-left: 6px solid darkblue;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
+
+/* Quote author */
 
 blockquote footer {
     text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Small UX improvement */
+
+blockquote:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
 }
